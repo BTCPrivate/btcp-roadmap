@@ -1,0 +1,61 @@
+body {
+  font-family: ubuntu, sans-serif;
+  font-size: 20px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.roadmap {
+  margin-top: 80px;
+  color: #272D63;
+  line-height: 48px;
+}
+
+.date {
+  color: #444;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.goal {
+  font-style: italic;
+}
+
+.status {
+  background: url(status.png);
+  background-repeat: repeat-y;
+  background-position: center;
+  font-size: 32px;
+}
+
+.done {
+  color: #00A950;
+}
+
+.in-progress {
+  color: #FFAD05;
+}
+
+.sub {
+  line-height: 21px;
+  font-size: 14px;
+}
+
+
+@media (max-width: 575px) {
+.roadmap, .date, .goal {
+  text-align: center!important;
+}
+}
